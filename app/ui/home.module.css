@@ -1,0 +1,22 @@
+
+.shape {
+  height: 0;
+  width: 0;
+  border-top: 40px solid black;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  transform: rotate(90deg);
+}
+
+.shape::after {
+  content: "";
+  position: absolute;
+  top: -80px;
+  left: -30px;
+  height: 0;
+  width: 0;
+  border-top: 40px solid black;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  transform: rotate(180deg);
+}
